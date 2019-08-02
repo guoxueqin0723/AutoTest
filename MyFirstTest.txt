@@ -1,4 +1,4 @@
 测试文件
 mergedemo
-这是master分支编辑的内容,这是mergebranch分支编辑的内容-解决冲突后
+这是master分支编辑的内容
 
