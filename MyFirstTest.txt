@@ -2,5 +2,4 @@
 mergedemo
 
 这是mergebranch分支编辑的内容111,这是master分支编辑的内容--合并后的内容
-version1
-version2
+version111
