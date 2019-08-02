@@ -2,5 +2,5 @@
 mergedemo
 这是master分支编辑的内容
 version1
-version2
+
 
