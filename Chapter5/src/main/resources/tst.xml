@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<suit>
-    <test>
+
+<suite name="test">
+    <test name="login">
         <classes>
             <class name="com.course.testng.Basic.suite.suiteConfig"/>
             <class name="com.course.testng.Basic.suite.LoginTest"/>
         </classes>
     </test>
-    <test>
+    <test name="pay">
         <classes>
             <class name="com.course.testng.Basic.suite.suiteConfig"/>
             <class name="com.course.testng.Basic.suite.PayTest"/>
         </classes>
     </test>
-</suit>
+</suite>

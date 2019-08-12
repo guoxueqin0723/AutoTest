@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="thread" parallel="classes" thread-count="2">
+    <!--
+     methods级别：所有用例都可以在不用的线程下执行
+     classes级别：相同的class tag下的用例在同一个线程中执行，不同的class tag下的用例可以在不同的线程中执行
+     tests级别：不同test tag标签下的用例，可以在不同的线程下执行，相同的test tag标签下的用例，只能在同一个线程下执行
+    thread-count：最大并行线程数
+    xml文件配置这种方式不能指定线程池，只有方法上可指定线程池
+    -->
+
+    <test name="demo1">
+        <classes>
+            <class name="com.course.testng.Basic.multiThread.MultiThreadOnXml"/>
+            <class name="com.course.testng.Basic.groups.GroupsOnClass1"/>
+        </classes>
+    </test>
+
+    <test name="demo2">
+        <classes>
+            <class name="com.course.testng.Basic.multiThread.MultiThreadOnXml"/>
+        </classes>
+    </test>
+
+    <test name="demo3">
+        <classes>
+            <class name="com.course.testng.Basic.multiThread.MultiThreadOnXml"/>
+        </classes>
+    </test>
+
+</suite>

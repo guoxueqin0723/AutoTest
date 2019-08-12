@@ -40,7 +40,7 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 
-public class ExtentTestNgIReportLlistenerOld implements IReporter {
+public class ExtentTestNgIReportLlistener implements IReporter {
     private static final String OUTPUT_FOLDER = "test-output/";
 
     private static final String FILE_NAME = "index.html";
