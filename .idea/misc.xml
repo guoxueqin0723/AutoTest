@@ -8,6 +8,10 @@
       <list>
         <option value="$PROJECT_DIR$/Chapter5/pom.xml" />
         <option value="$PROJECT_DIR$/Chapter6/pom.xml" />
+        <option value="$PROJECT_DIR$/Chapter9/pom.xml" />
+        <option value="$PROJECT_DIR$/Chapter10/pom.xml" />
+        <option value="$PROJECT_DIR$/Chapter11/pom.xml" />
+        <option value="$PROJECT_DIR$/Chapter12/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -15,5 +19,8 @@
         <option value="$PROJECT_DIR$/Chapter5/Chapter6/pom.xml" />
       </set>
     </option>
+  </component>
+  <component name="ProjectResources">
+    <resource url="http://mybatis.org/dtd/mybatis-3-config.dtd" location="$USER_HOME$/.IntelliJIdea2018.3/system/extResources/69c70a2f_mybatis-3-config.dtd" />
   </component>
 </project>

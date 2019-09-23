@@ -1,0 +1,60 @@
+[
+  {
+    "description": "这是一个会返回带cookies信息的get请求",
+    "request": {
+      "uri": "/getCookies",
+      "method": "get"
+    },
+    "response": {
+      "cookies": {
+        "login": "success"
+      },
+      "text": "恭喜您获取带cookies的结果",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
+    }
+
+  },
+  {
+    "description": "模拟一个带cookies的请求",
+    "request": {
+      "uri": "/get/with/cookies",
+      "method": "get",
+      "cookies": {
+        "login": "success"
+      }
+    },
+    "response": {
+      "text": "这是一个带cooikes(login=success)的get请求",
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      }
+    }
+  },
+  {
+    "description": "模拟一个带cookies的post请求，参数是json格式",
+    "request": {
+      "uri": "/post/with/cookies",
+      "method": "post",
+      "cookies": {
+        "login": "success"
+      },
+      "json": {
+        "name": "guoxueqin",
+        "level": "CET-6"
+      }
+
+    },
+    "response": {
+      "status": "200",
+      "headers":{
+        "Content-Type": "text/html;charset=gbk"
+      },
+      "json": {
+        "guoxueqin": "login success",
+        "status": "1"
+      }
+    }
+  }
+]

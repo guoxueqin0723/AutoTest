@@ -5,7 +5,10 @@
       "uri": "/demo"
     },
     "response":{
-      "text": "这是第一个mock框架demo"
+      "text": "这是第一个mock框架demo",
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      }
     }
   }
 ]
